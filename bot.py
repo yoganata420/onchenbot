@@ -277,8 +277,12 @@ class Onchain:
 
 
 if __name__ == "__main__":
-    try:
-        app = Onchain()
-        app.main()
-    except KeyboardInterrupt:
-        sys.exit()
+    while True:  # Mulai loop utama
+        try:
+            app = Onchain()
+            app.main()
+        except KeyboardInterrupt:
+            sys.exit()
+        except Exception as e:
+            print(f"Error occurred: {e}")
+            time.sleep(60)  # Tunggu 1 menit sebelum mencoba lagi
