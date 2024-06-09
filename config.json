@@ -1,9 +1,9 @@
 {
-    "interval": 15,
+    "interval": 10,
     "sleep": 2500,
     "min_energy": 5,
     "click_range": {
         "start": 1,
-        "end": 10
+        "end": 15
     }
 }
