@@ -1,6 +1,6 @@
 {
-    "interval": 10,
-    "sleep": 1800,
+    "interval": 15,
+    "sleep": 2500,
     "min_energy": 5,
     "click_range": {
         "start": 1,
